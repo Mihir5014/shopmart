@@ -13,11 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className="bg-black"
-      >
-        <header className="bg-gray-800 p-2 text-white">
-          <h2 className="text-2xl font-bold text-center">ShopMart</h2>
+      <body>
+        <header className="bg-gray-900 p-4 shadow-md">
+          <h1 className="text-2xl font-bold text-center text-white">ShopMart</h1>
         </header>
         {children}
       </body>
