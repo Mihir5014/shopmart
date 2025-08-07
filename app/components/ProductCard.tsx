@@ -6,7 +6,7 @@ type Props = {
         price: number;
     }
 };
-
+// product card component 
 export default function ProductCard({ product }: Props) {
     return (
         <div
@@ -15,7 +15,7 @@ export default function ProductCard({ product }: Props) {
             <div className="w-full h-60 flex items-center justify-center rounded mb-4">
                 <img src={product.image}
                     alt={product.title}
-                    className="max-h-full object-contai" />
+                    className="max-h-full object-contain" />
             </div>
 
             <h3 className="text-sm font-medium truncate mb-2">{product.title}</h3>
