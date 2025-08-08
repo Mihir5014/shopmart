@@ -1,10 +1,10 @@
-# 🛒 Product Listing App
+# Product Listing App
 
 A simple and responsive e-commerce web application built with **Next.js 15** and **TypeScript**. It fetches product data from the **Fake Store API**, allowing users to view a list of products and detailed information for each product.
 
 ---
 
-## 📋 Features
+## Features
 
 -  Product listing page with image, title, and price
 -  Dynamic product detail page with image, title, price, category, and description
@@ -15,7 +15,7 @@ A simple and responsive e-commerce web application built with **Next.js 15** and
 
 ---
 
-## 🧑‍💻 Tech Stack
+## Tech Stack
 
 - **Framework:** [Next.js 15](https://nextjs.org/)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
@@ -25,7 +25,7 @@ A simple and responsive e-commerce web application built with **Next.js 15** and
 
 ---
 
-## 🔗 API Endpoints Used
+## API Endpoints Used
 
 - All Products: `https://fakestoreapi.com/products`
 - Single Product: `https://fakestoreapi.com/products/[id]`
