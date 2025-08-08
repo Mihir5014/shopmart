@@ -6,15 +6,9 @@ type Product = {
   category: string;
   description: string;
 }
-type Params = {
-  params: {
-    id: string;
-  }
-}
-
-export default async function ProductDetaiils({ params }: Params) {
+export default async function ProductDetails({ params }: { params: Promise<{ id: string }> }) {
   // data fetching of single product
-  const id = await params.id;
+  const {id} = await params;
   const data = await fetch(`https://fakestoreapi.com/products/${id}`);
 
   if (!data.ok) throw new Error('Failed to fetch product');
